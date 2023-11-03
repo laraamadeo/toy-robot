@@ -2,25 +2,26 @@
 
 Robot is a class to instantiate a robot that behaves as a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
 
-- PLACE -> places your robot in x, y, facing coordinates
-- MOVE -> moves your robot one unit in facing direction
-- LEFT -> rotates robot 90º anticlockwise
-- RIGHT -> rotates robot 90º clockwise
-- REPORT -> prints robot coordinates and end program
+- **PLACE** -> places your robot in x, y, facing coordinates
+- **MOVE** -> moves your robot one unit in facing direction
+- **LEFT** -> rotates robot 90º anticlockwise
+- **RIGHT** -> rotates robot 90º clockwise
+- **REPORT** -> prints robot coordinates and end program
 
 ## Testing
 
-### Node execution
+### Command-line execution
 
-In your terminal travel to toyRobot file and execute
+In your terminal run:
+
 ```bash
 ./test.sh
 ```
 
 ### Browser execution
 
-Open the index.html file in your browser and open the console.
+Open the `index.html` file in your browser and open the console.
 
 ## Usage DEMO
 
-Open the index.html file inside console-demo folder in your browser, open the console and type `start()`.
+Open the `index.html` file inside `console-demo` folder in your browser, open the console and type `start()`.
